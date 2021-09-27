@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #363636 32%, #1c1c1c 60%);
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+div h1 {
+  font-family: "MonteCarlo", cursive;
+}
+
+.container {
+  background: #8b0000;
+  margin: 16px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px #000000;
+  padding: 16px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.subtitulo {
+  margin-top: 28px;
+  margin-left: 18px;
+}
+
+.projetado {
+  align-items: right;
+  margin-top: -18px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-radius: 15px;
+  background: #6d0000;
+}
+
+.interrogacao {
+  border-radius: 10px;
+  margin-left: 70px;
+  max-height: 130px;
+}
+
+.buttonReproduzir {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background: #930000;
+}
+
+.buttonReproduzir:hover {
+  background: red;
+}
+
+.botaoFinalizar {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background: #930000;
+}
+
+.botaoFinalizar:hover {
+  background: darkgreen;
+}
+
+.resultado-final {
+  background-color: darkgreen;
+  border-color: greenyellow;
+  border-radius: 10px;
+  margin: 8px;
+  padding: 8px;
+}
